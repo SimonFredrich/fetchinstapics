@@ -4,5 +4,5 @@
 ### Geckodriver
 sudo ./install_geckodriver.sh
 
-### Checklist
+### TODO
 - load the whole instagram profile page
