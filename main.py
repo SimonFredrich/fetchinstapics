@@ -45,9 +45,10 @@ if __name__ == "__main__":
     options = Options()
     options.set_preference('permissions.default.image', 2)
     options.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)
+    options.headless = True
 
     # setup the firefox driver
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(options=options)
     # navigate to url
     driver.get(url)
 
